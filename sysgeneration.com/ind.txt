@@ -1,0 +1,11 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
+<html>
+	<head>index</head>
+	<body>
+		<p>We are under Maintenance please visit again. Our service will start soon. </p>
+	</body>
+</html>

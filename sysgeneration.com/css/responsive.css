@@ -1,0 +1,214 @@
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    textarea {
+        margin: 100px 0 50px 0;
+        min-height: 200px;
+    }  
+}
+/***************************************************/
+/************** iPad Pro 1024px *****************/
+/***************************************************/
+@media (max-width: 1024px){
+	#slider-section .carousel-caption {
+	    padding-bottom: 100px;
+	}
+	#slider-section h2{
+		font-size: 20px;
+	}
+	#slider-section .carousel-caption p {
+	    padding: 20px 0;
+	    font-size: 9px;
+	}
+	.goto-btm,
+	#back-to-top,
+    #scroll{
+		display: none;
+	}
+	#slider-section .carousel-indicators {
+	    padding-bottom: 0;
+	}
+	.slider-btn,
+	.abt-btn{
+		padding: 2px 7px;
+		font-size: 10px;
+	}
+	.title-desc h2{
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+	.title-desc p{
+		font-size: 9px;
+	}
+	.title-desc h2:after{
+		top: 35px;
+	}
+	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time > span:first-child{
+		font-size: 12px;
+	}
+	blockquote{
+		font-size: 12px;
+	}
+	.filter-container{
+		padding: 0;
+	}
+	ul.filter > li > a,
+	.portfolio-section .article-title{
+		font-size: 16px;
+	}
+	.portfolio-section{
+		padding-bottom: 20px;
+	}
+	.load-more-portfolio button{
+		padding-top: 0;
+		padding: 3px 10px;
+	}
+	#counter-up{
+		margin-top: 60px;
+	}
+	.promoInfo{
+	    margin-top: 50px;
+	}
+	.promoInfo span.counter{
+		font-size: 25px;
+	}
+	.promoInfo b{
+		font-size: 20px;
+	}
+	#quote-carousel .carousel-indicators .active {
+	    width: 70px;
+	    height: 70px;
+	}
+	.single-blog h2 {
+	    font-size: 19px;
+	    padding: 10px 0;
+	}
+	.contact .form-wrapper {
+		margin-top: 0px; 
+	}
+	.contact .form-control{
+		min-height: 35px;
+	}
+	.contact .contact-info .info i{
+		font-size: 2rem;
+		width: 60px;
+		height: 62px;
+		line-height: 74px;
+	}
+	.footer-social .fa-3x{
+		font-size: 2rem;
+	}
+}
+
+/***************************************************/
+/************** iPad 768px *****************/
+/***************************************************/
+@media (max-width: 768px) {
+    #slider-section .carousel-caption {
+		padding-bottom: 55px;
+	}
+	#about-me{
+		text-align: center;
+	}
+	#about-me img{
+		display: block;
+		margin: 0 auto;
+	}
+	.promoInfo {
+		margin-top: 0;
+		padding-bottom: 30px;
+	}
+	#quote-carousel .carousel-indicators{
+		top: 0;
+	}
+    #back-to-top,
+    #scroll {
+        display: none;
+    }
+	.single-blog {
+	  margin-bottom: 30px;
+	}	
+}
+
+/***************************************************/
+/************** iPhone6 Plus 414px *****************/
+/***************************************************/
+@media (max-width: 414px) {
+	.section-padding {
+	    padding: 30px 0;
+	}
+	.navbar.navbar-light .navbar-title{
+		height: 90px;
+	}
+	#slider-section {
+	    padding-top: 90px;
+	}
+	#slider-section h2{
+		font-size: 11px;
+	}
+	#slider-section .carousel-caption {
+	    padding-bottom: 22px;
+	}
+	#slider-section .carousel-caption p {
+	    padding: 4px 0;
+	    font-size: 6px;
+	}
+	.slider-btn{
+	    padding: 1px 3px;
+	    font-size: 5px;
+	}
+	.title-desc h2 {
+	    font-size: 15px;
+	    margin-bottom: 10px;
+	}
+	.title-desc h2:after{
+		top: 22px;
+		left: calc(58% - 69px);
+		width: 70px;
+		border-bottom: 1px solid #000;
+	}
+	.title-desc {
+	    padding-bottom: 24px;
+	}
+	.single-service .fa-5x{
+		font-size: 3rem;
+	}
+	.skillbar-title{
+		font-size: 10px;
+	}
+	.skillbar-bar,
+	.skillbar-title span,
+	.skillbar{
+		height: 19px;
+	}
+	.skillbar-title span,
+	.skill-bar-percent{
+		line-height: 19px;
+	}
+	.read-more-link a{
+		padding: 3px;
+		font-size: 9px;
+	}
+	.contact .submit-btn{
+		padding: 10px 0;
+		margin-top: 5px;
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+    textarea {
+        margin: 50px 0 25px 0;
+        min-height: 150px;
+    }
+    #back-to-top,
+    #scroll {
+        display: none;
+    }
+}
+
+@media (max-width: 415px) {
+    #back-to-top,
+    #scroll{
+        display: none;
+    }
+}
